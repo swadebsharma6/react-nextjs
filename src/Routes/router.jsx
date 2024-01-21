@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
 import Form from "../Pages/Form";
 import Home from "../Pages/Home";
+import Redundant from "../Pages/Redundant";
 import Pointer from "../components/Pointer";
 
 
@@ -21,6 +22,10 @@ export const router = createBrowserRouter([
         {
             path: '/form',
             element: <Form></Form>
+        },
+        {
+            path: '/red',
+            element: <Redundant></Redundant>
         },
       ]
     }

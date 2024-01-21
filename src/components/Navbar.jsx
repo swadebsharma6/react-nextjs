@@ -7,6 +7,7 @@ const Navbar = () => {
     <li> <Link to='/'>Home</Link> </li>
     <li> <Link to='/pointer'>Pointer</Link> </li>
     <li> <Link to='/form'>Form</Link> </li>
+    <li> <Link to='/red'>Redundant</Link> </li>
     </>
 
 
